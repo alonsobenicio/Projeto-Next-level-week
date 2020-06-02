@@ -1,0 +1,37 @@
+:root {
+    --title-color: #331177; /* cria um var, podendo utilizar em varios textos fazendo
+    alteção em todos os itens de uma ves só */
+    --primary-color: #34cb79;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{ /*quanto tem apenas um nome nao precisa da aspas */
+    font-family: Roboto, sans-serif;   /*puxar fonte */
+}
+
+body{
+    background: #f0f0f5;
+    -webkit-font-smoothing: antialiased;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Ubuntu', sans-serif;
+    color: var(--title-color);
+}
+    /* Box Model 
+    
+    Modelo de caixa
+    toda caixa tem
+    largura, altura ,espaçamentos , preenchimentos
+    bordas, cor,fundo, maneira que é vista pelo html (display)
+    */
+
